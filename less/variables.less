@@ -7,18 +7,37 @@
 //
 //## Gray and brand colors for use across Bootstrap.
 
-@gray-base:              #000;
-@gray-darker:            lighten(@gray-base, 13.5%); // #222
-@gray-dark:              lighten(@gray-base, 20%);   // #333
-@gray:                   lighten(@gray-base, 33.5%); // #555
-@gray-light:             lighten(@gray-base, 46.7%); // #777
-@gray-lighter:           lighten(@gray-base, 93.5%); // #eee
+// primary colors
+@primary         : #20B475;
 
-@brand-primary:         darken(#428bca, 6.5%); // #337ab7
-@brand-success:         #5cb85c;
-@brand-info:            #5bc0de;
-@brand-warning:         #f0ad4e;
-@brand-danger:          #d9534f;
+// secondary colors
+@warnings        : #E98A41;
+@links           : #1591C1;
+@text1           : #333333;
+@text2           : #666666;
+@light-background: #F9FAFB;
+@dark-background : #53646A;
+@numbers         : #CCCCCC;
+@alerts          : #EF6162;
+
+// tertiary colors
+@graph           : #E5E7E6;
+@text3           : #FFFFFF;
+
+
+// bootstrap variables
+@gray-base       : #000000; // not used
+@gray-darker     : @text1;
+@gray-dark       : @dark-background;
+@gray            : @text2;
+@gray-light      : @numbers;
+@gray-lighter    : @light-background;
+
+@brand-primary   : @primary;
+@brand-success   : @primary;
+@brand-info      : @links;
+@brand-warning   : @warnings;
+@brand-danger    : @alerts;
 
 
 //== Scaffolding
@@ -42,32 +61,34 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-sans-serif:  Roboto, Helvetica, Arial, sans-serif;
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
 @font-size-base:          14px;
-@font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
-@font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
+@font-size-large:         24px;
+@font-size-small:         16px;
 
-@font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
-@font-size-h2:            floor((@font-size-base * 2.15)); // ~30px
-@font-size-h3:            ceil((@font-size-base * 1.7)); // ~24px
-@font-size-h4:            ceil((@font-size-base * 1.25)); // ~18px
-@font-size-h5:            @font-size-base;
-@font-size-h6:            ceil((@font-size-base * 0.85)); // ~12px
+@font-size-h1:            24px; // ~36px
+@font-size-h2:            18px;
+
+// TODO: Add header styles for h3, h4, and h5
+@font-size-h3:            16px;
+@font-size-h4:            16px; // ceil((@font-size-base * 1.25)); // ~18px
+@font-size-h5:            12px;
+@font-size-h6:            12px;
 
 //** Unit-less `line-height` for use in components like buttons.
-@line-height-base:        1.428571429; // 20/14
+@line-height-base:        1;
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
 @line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
 
 //** By default, this inherits from the `<body>`.
-@headings-font-family:    inherit;
-@headings-font-weight:    500;
-@headings-line-height:    1.1;
+@headings-font-family:    @font-family-sans-serif;
+@headings-font-weight:    400; // normal
+@headings-line-height:    1;
 @headings-color:          inherit;
 
 
