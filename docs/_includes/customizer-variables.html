@@ -23,13 +23,13 @@
   </div>
   <div class="col-xs-4">
     <label for="input-@link-color">@link-color</label>
-    <input id="input-@link-color" type="text" aria-describedby="help-block-@link-color" value="@brand-primary" data-var="@link-color" class="form-control"/>
+    <input id="input-@link-color" type="text" aria-describedby="help-block-@link-color" value="@links" data-var="@link-color" class="form-control"/>
     <p id="help-block-@link-color" class="help-block">Global textual link color.</p>
   </div>
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@link-hover-color">@link-hover-color</label>
-    <input id="input-@link-hover-color" type="text" aria-describedby="help-block-@link-hover-color" value="darken(@link-color, 15%)" data-var="@link-hover-color" class="form-control"/>
+    <input id="input-@link-hover-color" type="text" aria-describedby="help-block-@link-hover-color" value="@links" data-var="@link-hover-color" class="form-control"/>
     <p id="help-block-@link-hover-color" class="help-block">Link hover color set via <code>darken()</code> function.</p>
   </div>
   <div class="col-xs-4">
@@ -70,7 +70,7 @@
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@font-size-small">@font-size-small</label>
-    <input id="input-@font-size-small" type="text" value="16px" data-var="@font-size-small" class="form-control"/>
+    <input id="input-@font-size-small" type="text" value="12px" data-var="@font-size-small" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@font-size-h1">@font-size-h1</label>
@@ -147,11 +147,11 @@
 <div class="row">
   <div class="col-xs-4">
     <label for="input-@padding-base-vertical">@padding-base-vertical</label>
-    <input id="input-@padding-base-vertical" type="text" value="6px" data-var="@padding-base-vertical" class="form-control"/>
+    <input id="input-@padding-base-vertical" type="text" value="8px" data-var="@padding-base-vertical" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@padding-base-horizontal">@padding-base-horizontal</label>
-    <input id="input-@padding-base-horizontal" type="text" value="12px" data-var="@padding-base-horizontal" class="form-control"/>
+    <input id="input-@padding-base-horizontal" type="text" value="20px" data-var="@padding-base-horizontal" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@padding-large-vertical">@padding-large-vertical</label>
@@ -173,7 +173,7 @@
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@padding-xs-vertical">@padding-xs-vertical</label>
-    <input id="input-@padding-xs-vertical" type="text" value="1px" data-var="@padding-xs-vertical" class="form-control"/>
+    <input id="input-@padding-xs-vertical" type="text" value="2px" data-var="@padding-xs-vertical" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@padding-xs-horizontal">@padding-xs-horizontal</label>
@@ -190,16 +190,16 @@
   </div>
   <div class="col-xs-4">
     <label for="input-@border-radius-base">@border-radius-base</label>
-    <input id="input-@border-radius-base" type="text" value="4px" data-var="@border-radius-base" class="form-control"/>
+    <input id="input-@border-radius-base" type="text" value="2px" data-var="@border-radius-base" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@border-radius-large">@border-radius-large</label>
-    <input id="input-@border-radius-large" type="text" value="6px" data-var="@border-radius-large" class="form-control"/>
+    <input id="input-@border-radius-large" type="text" value="4px" data-var="@border-radius-large" class="form-control"/>
   </div>
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@border-radius-small">@border-radius-small</label>
-    <input id="input-@border-radius-small" type="text" value="3px" data-var="@border-radius-small" class="form-control"/>
+    <input id="input-@border-radius-small" type="text" value="1px" data-var="@border-radius-small" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@component-active-color">@component-active-color</label>
@@ -285,16 +285,16 @@
   </div>
   <div class="col-xs-4">
     <label for="input-@btn-primary-color">@btn-primary-color</label>
-    <input id="input-@btn-primary-color" type="text" value="#fff" data-var="@btn-primary-color" class="form-control"/>
+    <input id="input-@btn-primary-color" type="text" value="@brand-primary" data-var="@btn-primary-color" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@btn-primary-bg">@btn-primary-bg</label>
-    <input id="input-@btn-primary-bg" type="text" value="@brand-primary" data-var="@btn-primary-bg" class="form-control"/>
+    <input id="input-@btn-primary-bg" type="text" value="#fff" data-var="@btn-primary-bg" class="form-control"/>
   </div>
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@btn-primary-border">@btn-primary-border</label>
-    <input id="input-@btn-primary-border" type="text" value="darken(@btn-primary-bg, 5%)" data-var="@btn-primary-border" class="form-control"/>
+    <input id="input-@btn-primary-border" type="text" value="@brand-primary" data-var="@btn-primary-border" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@btn-success-color">@btn-success-color</label>
@@ -307,7 +307,7 @@
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@btn-success-border">@btn-success-border</label>
-    <input id="input-@btn-success-border" type="text" value="darken(@btn-success-bg, 5%)" data-var="@btn-success-border" class="form-control"/>
+    <input id="input-@btn-success-border" type="text" value="@brand-success" data-var="@btn-success-border" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@btn-info-color">@btn-info-color</label>
@@ -320,7 +320,7 @@
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@btn-info-border">@btn-info-border</label>
-    <input id="input-@btn-info-border" type="text" value="darken(@btn-info-bg, 5%)" data-var="@btn-info-border" class="form-control"/>
+    <input id="input-@btn-info-border" type="text" value="@brand-info" data-var="@btn-info-border" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@btn-warning-color">@btn-warning-color</label>
@@ -333,7 +333,7 @@
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@btn-warning-border">@btn-warning-border</label>
-    <input id="input-@btn-warning-border" type="text" value="darken(@btn-warning-bg, 5%)" data-var="@btn-warning-border" class="form-control"/>
+    <input id="input-@btn-warning-border" type="text" value="@brand-warning" data-var="@btn-warning-border" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@btn-danger-color">@btn-danger-color</label>
@@ -346,7 +346,7 @@
   <div class="clearfix"></div>
   <div class="col-xs-4">
     <label for="input-@btn-danger-border">@btn-danger-border</label>
-    <input id="input-@btn-danger-border" type="text" value="darken(@btn-danger-bg, 5%)" data-var="@btn-danger-border" class="form-control"/>
+    <input id="input-@btn-danger-border" type="text" value="@brand-danger" data-var="@btn-danger-border" class="form-control"/>
   </div>
   <div class="col-xs-4">
     <label for="input-@btn-link-disabled-color">@btn-link-disabled-color</label>

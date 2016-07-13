@@ -1,5 +1,5 @@
 //
-// Variables
+// Variable
 // --------------------------------------------------
 
 
@@ -50,9 +50,9 @@
 @text-color:            @gray-dark;
 
 //** Global textual link color.
-@link-color:            @brand-primary;
+@link-color:            @links;
 //** Link hover color set via `darken()` function.
-@link-hover-color:      darken(@link-color, 15%);
+@link-hover-color:      @links;
 //** Link hover decoration.
 @link-hover-decoration: underline;
 
@@ -62,6 +62,8 @@
 //## Font, line-height, and color for body text, headings, and more.
 
 @font-family-sans-serif:  Roboto, Helvetica, Arial, sans-serif;
+
+// TODO: Select serif and monospace fonts
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -69,7 +71,7 @@
 
 @font-size-base:          14px;
 @font-size-large:         24px;
-@font-size-small:         16px;
+@font-size-small:         12px;
 
 @font-size-h1:            24px; // ~36px
 @font-size-h2:            18px;
@@ -97,6 +99,8 @@
 //## Specify custom location and filename of the included Glyphicons icon font. Useful for those including Bootstrap via Bower.
 
 //** Load fonts from this directory.
+
+// TODO: Link to font awesome
 @icon-font-path:          "../fonts/";
 //** File name for all font files.
 @icon-font-name:          "glyphicons-halflings-regular";
@@ -108,8 +112,10 @@
 //
 //## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).
 
-@padding-base-vertical:     6px;
-@padding-base-horizontal:   12px;
+// @padding-base-vertical:     6px;
+// @padding-base-horizontal:   12px;
+@padding-base-vertical:     8px;
+@padding-base-horizontal:   20px;
 
 @padding-large-vertical:    10px;
 @padding-large-horizontal:  16px;
@@ -117,15 +123,15 @@
 @padding-small-vertical:    5px;
 @padding-small-horizontal:  10px;
 
-@padding-xs-vertical:       1px;
+@padding-xs-vertical:       2px;
 @padding-xs-horizontal:     5px;
 
 @line-height-large:         1.3333333; // extra decimals for Win 8.1 Chrome
 @line-height-small:         1.5;
 
-@border-radius-base:        4px;
-@border-radius-large:       6px;
-@border-radius-small:       3px;
+@border-radius-base:        2px;
+@border-radius-large:       4px;
+@border-radius-small:       1px;
 
 //** Global color for active items (e.g., navs or dropdowns).
 @component-active-color:    #fff;
@@ -169,25 +175,29 @@
 @btn-default-bg:                 #fff;
 @btn-default-border:             #ccc;
 
-@btn-primary-color:              #fff;
-@btn-primary-bg:                 @brand-primary;
-@btn-primary-border:             darken(@btn-primary-bg, 5%);
+@btn-primary-color:              @brand-primary;
+@btn-primary-bg:                 #fff;
+@btn-primary-border:             @brand-primary;
 
 @btn-success-color:              #fff;
 @btn-success-bg:                 @brand-success;
-@btn-success-border:             darken(@btn-success-bg, 5%);
+@btn-success-border:             @brand-success;
+// @btn-success-border:             darken(@btn-success-bg, 5%);
 
 @btn-info-color:                 #fff;
 @btn-info-bg:                    @brand-info;
-@btn-info-border:                darken(@btn-info-bg, 5%);
+@btn-info-border:                @brand-info;
+// @btn-info-border:                darken(@btn-info-bg, 5%);
 
 @btn-warning-color:              #fff;
 @btn-warning-bg:                 @brand-warning;
-@btn-warning-border:             darken(@btn-warning-bg, 5%);
+@btn-warning-border:             @brand-warning;
+// @btn-warning-border:             darken(@btn-warning-bg, 5%);
 
 @btn-danger-color:               #fff;
 @btn-danger-bg:                  @brand-danger;
-@btn-danger-border:              darken(@btn-danger-bg, 5%);
+@btn-danger-border:              @brand-danger;
+// @btn-danger-border:              darken(@btn-danger-bg, 5%);
 
 @btn-link-disabled-color:        @gray-light;
 
