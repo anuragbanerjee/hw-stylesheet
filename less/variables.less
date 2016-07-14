@@ -73,6 +73,13 @@
 @font-size-large:         24px;
 @font-size-small:         12px;
 
+// CUSTOM: font size for body and description text
+@font-size-body:          16px;
+@font-size-description:   12px;
+
+
+@font-size-small:         12px;
+
 @font-size-h1:            24px; // ~36px
 @font-size-h2:            18px;
 
@@ -175,8 +182,8 @@
 @btn-default-bg:                 #fff;
 @btn-default-border:             #ccc;
 
-@btn-primary-color:              @brand-primary;
-@btn-primary-bg:                 #fff;
+@btn-primary-color:              #fff;
+@btn-primary-bg:                 @brand-primary;
 @btn-primary-border:             @brand-primary;
 
 @btn-success-color:              #fff;
@@ -219,7 +226,9 @@
 //** Text color for `<input>`s
 @input-color:                    @gray;
 //** `<input>` border color
-@input-border:                   #ccc;
+@input-border:                   @gray-light;
+
+
 
 // TODO: Rename `@input-border-radius` to `@input-border-radius-base` in v4
 //** Default `.form-control` border radius
@@ -231,7 +240,10 @@
 @input-border-radius-small:      @border-radius-small;
 
 //** Border color for inputs on focus
-@input-border-focus:             #66afe9;
+@input-border-focus:             @brand-primary;
+
+// CUSTOM: border color on textfield error
+@input-border-error:             @brand-danger;
 
 //** Placeholder text color
 @input-color-placeholder:        #999;
