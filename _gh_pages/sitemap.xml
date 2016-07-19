@@ -2,7 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://getbootstrap.com/</loc>
+<<<<<<< HEAD
     <lastmod>2016-07-19T10:45:36-07:00</lastmod>
+=======
+    <lastmod>2016-07-13T17:31:36-07:00</lastmod>
+>>>>>>> 1ceddfc04eadb906ae46b517d39ced4dd96757c3
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -10,7 +14,11 @@
   
   <url>
     <loc>http://getbootstrap.com/about/</loc>
+<<<<<<< HEAD
     <lastmod>2016-07-19T10:45:36-07:00</lastmod>
+=======
+    <lastmod>2016-07-13T17:31:36-07:00</lastmod>
+>>>>>>> 1ceddfc04eadb906ae46b517d39ced4dd96757c3
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -19,7 +27,11 @@
   
   <url>
     <loc>http://getbootstrap.com/browser-bugs/</loc>
+<<<<<<< HEAD
     <lastmod>2016-07-19T10:45:36-07:00</lastmod>
+=======
+    <lastmod>2016-07-13T17:31:36-07:00</lastmod>
+>>>>>>> 1ceddfc04eadb906ae46b517d39ced4dd96757c3
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -28,7 +40,11 @@
   
   <url>
     <loc>http://getbootstrap.com/components/</loc>
+<<<<<<< HEAD
     <lastmod>2016-07-19T10:45:36-07:00</lastmod>
+=======
+    <lastmod>2016-07-13T17:31:36-07:00</lastmod>
+>>>>>>> 1ceddfc04eadb906ae46b517d39ced4dd96757c3
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -37,7 +53,11 @@
   
   <url>
     <loc>http://getbootstrap.com/css/</loc>
+<<<<<<< HEAD
     <lastmod>2016-07-19T10:45:36-07:00</lastmod>
+=======
+    <lastmod>2016-07-13T17:31:36-07:00</lastmod>
+>>>>>>> 1ceddfc04eadb906ae46b517d39ced4dd96757c3
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -46,7 +66,11 @@
   
   <url>
     <loc>http://getbootstrap.com/customize/</loc>
+<<<<<<< HEAD
     <lastmod>2016-07-19T10:45:36-07:00</lastmod>
+=======
+    <lastmod>2016-07-13T17:31:36-07:00</lastmod>
+>>>>>>> 1ceddfc04eadb906ae46b517d39ced4dd96757c3
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -55,7 +79,11 @@
   
   <url>
     <loc>http://getbootstrap.com/getting-started/</loc>
+<<<<<<< HEAD
     <lastmod>2016-07-19T10:45:36-07:00</lastmod>
+=======
+    <lastmod>2016-07-13T17:31:36-07:00</lastmod>
+>>>>>>> 1ceddfc04eadb906ae46b517d39ced4dd96757c3
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -66,7 +94,11 @@
   
   <url>
     <loc>http://getbootstrap.com/javascript/</loc>
+<<<<<<< HEAD
     <lastmod>2016-07-19T10:45:36-07:00</lastmod>
+=======
+    <lastmod>2016-07-13T17:31:36-07:00</lastmod>
+>>>>>>> 1ceddfc04eadb906ae46b517d39ced4dd96757c3
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -75,7 +107,11 @@
   
   <url>
     <loc>http://getbootstrap.com/migration/</loc>
+<<<<<<< HEAD
     <lastmod>2016-07-19T10:45:36-07:00</lastmod>
+=======
+    <lastmod>2016-07-13T17:31:36-07:00</lastmod>
+>>>>>>> 1ceddfc04eadb906ae46b517d39ced4dd96757c3
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
