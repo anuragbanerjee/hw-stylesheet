@@ -617,3 +617,18 @@ input[type="checkbox"] {
     }
   }
 }
+
+// CHANGED: this is for awesome looking checkboxes and radio button
+.checkbox label::after {
+  color: @brand-primary !important;
+  // background: white;
+}
+
+// green radio button
+.radio input[type="radio"] + label::after {
+  background-color: #5cb85c;
+}
+
+.radio input[type="radio"]:checked + label::after {
+  background-color: #5cb85c;
+}
